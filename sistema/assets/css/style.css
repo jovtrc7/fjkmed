@@ -1,0 +1,206 @@
+/* GERAL */
+body { background-color: #f7f8fd; }
+
+.input-group .fa {
+    text-align: center;
+    min-width: 15px;
+}
+
+.alert-fixed-bottom {
+    position: fixed;
+    right: 20px;
+    bottom: 20px;
+    z-index: 99999;
+}
+
+.container-fluid > .listagem,
+.container-fluid > .cadastrar {
+    min-height: 250px;
+}
+
+
+
+/* TEXTOS */
+h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6 {
+    font-weight: 600;
+    line-height: 1.5;
+    margin-bottom: .5rem;
+    color: #32325d;
+}
+
+h1,.h1 { font-size: 1.625rem; }
+h2,.h2 { font-size: 1.25rem; }
+h3,.h3 { font-size: 1.0625rem; }
+h4,.h4 { font-size: .9375rem; }
+h5,.h5 { font-size: .8125rem; }
+h6,.h6 { font-size: .625rem; }
+.text-sm { font-size: .875rem !important; }
+.text-muted { color: #8898aa !important; }
+
+label {
+    font-size: .8571em;
+    margin-bottom: 5px;
+    color: #9a9a9a;
+}
+
+
+
+/* AREA MENU */
+#menu-principal {
+    z-index: 999;
+    position: fixed;
+    padding: 1.5rem;
+    max-width: 250px;
+    min-height: 100vh;
+    left: 0; top: 0; bottom: 0;
+    box-shadow: 0 0 2rem 0 rgba(136, 152, 170, .15) !important;
+}
+
+.navbar-nav a {
+    font-size: .9rem;
+    padding: .7rem 1.5rem;
+    color: rgba(0, 0, 0, .5);
+}
+
+.navbar-nav a:hover { color: rgba(0, 0, 0, .7); }
+
+.navbar-nav a .fa {
+    font-size: .9375rem;
+    line-height: 1.5rem;
+    min-width: 1.5rem;
+}
+
+.navbar-nav .submenu-menu {
+    position: static !important;
+    transform: none !important;
+    border: 0;
+    margin: 0 -24px;
+    padding: 0;
+    background: #f1f1f1;
+    border-radius: 0;
+    display: none;
+}
+
+.aberto .submenu-menu {
+    display: block;
+}
+
+.navbar-nav .submenu-item {
+    padding: .7rem 2.5rem;
+    display: block;
+}
+
+
+
+/* AREA CONTEUDO */
+.conteudo {
+    position: relative;
+    padding-left: 250px;
+    background-color: #f7f8fd;
+}
+
+.conteudo::before {
+    content: "";
+    height: 350px;
+    position: absolute;
+    left: 0; top: 0; right: 0;
+    background: linear-gradient(87deg, #74b9ff, #0984e3 100%) !important;
+}
+
+.container-fluid {
+    padding-right: 39px !important;
+    padding-left: 39px !important;
+}
+
+
+
+/* AREA TOPO */
+.topo h1 {
+    font-size: 1.1rem;
+    text-transform: uppercase;
+    color: white;
+    font-weight: bold;
+}
+
+.topo .btn {
+    background: transparent;
+    color: white;
+    padding: 0;
+    font-weight: bold;
+}
+
+.topo .fa-user {
+    padding: 5px 0;
+    border: 2px solid white;
+    border-radius: 100%;
+    width: 30px;
+    margin-right: 5px;
+}
+
+
+
+/* AREA DESTAQUES */
+.icone-container {
+    width: 3rem;
+    height: 3rem;
+    padding: 12px;
+    text-align: center;
+}
+
+.icone-container .fa {
+    font-size: 1.35rem;
+}
+
+
+
+/* CARDS */
+.card-header {
+    padding: 1.25rem 1.5rem;
+    background-color: #fff;
+}
+
+.card .table td, .card .table th {
+    padding-right: 1.5rem;
+    padding-left: 1.5rem;
+}
+
+.card .table tbody td, .card .table tbody th {
+    padding: 1.5rem;
+}
+
+.table thead th {
+    font-size: .65rem;
+    padding-top: .75rem;
+    padding-bottom: .75rem;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    border-bottom: 1px solid #e9ecef;
+}
+
+
+
+/* AGENDAMENTOS */
+.agendamento-passou {
+    background: #fff7bd;
+    opacity: .4;
+}
+
+.agendamento-incompleto {
+    background: #ffbfbf;
+}
+
+.agendamento-realizado {
+    background: #c3ffbd;
+    opacity: .4;
+}
+
+.ui-datepicker .ui-datepicker-buttonpane button.ui-datepicker-current {
+    display: none;
+}
+
+
+
+/* SAME */
+.accordion .collapse .card {
+    border-bottom: 1px solid rgba(0,0,0,.125);
+}
